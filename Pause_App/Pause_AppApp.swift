@@ -11,7 +11,7 @@ import SwiftUI
 struct Pause_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(language: .constant("en"))
         }
     }
 }
