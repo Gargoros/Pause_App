@@ -17,6 +17,10 @@ struct ImageView: View {
             .resizable()
             .frame(width: imageWidth, height: imageHeight)
             .clipShape(Circle())
+            .overlay(
+                TextView()
+            )
+        
     }
 }
 

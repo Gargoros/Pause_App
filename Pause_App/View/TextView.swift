@@ -12,11 +12,12 @@ struct TextView: View {
     @State private var isTapped: Bool = false
     let pauseText: LocalizedStringKey = "Play"
     let playText: LocalizedStringKey = "Pause"
+    var prompt: LocalizedStringKey {
+        return isTapped ? pauseText : playText
+    }
     
     var body: some View {
-        Text(
-            isTapped ? pauseText : playText
-        )
+        Text(prompt)
             .font(.title)
             .foregroundStyle(.myWhite)
             .fontWeight(.medium)

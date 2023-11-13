@@ -23,7 +23,6 @@ struct PortraitModeView: View {
                 Spacer()
                 ZStack{
                     ImageView(imageWidth: imageWidthIPhone, imageHeight: imageHeightIPhone)
-                    TextView()
                 }
                 Spacer()
                 Spacer()

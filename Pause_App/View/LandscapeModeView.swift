@@ -23,7 +23,6 @@ struct LandscapeModeView: View {
                 Spacer()
                 ZStack{
                     ImageView(imageWidth: imageWidthIPad, imageHeight: imageHeightIPad)
-                    TextView()
                 }
                 Spacer()
                 Spacer()
